@@ -1,0 +1,25 @@
+[package]
+name = "haptic"
+version = "0.1.0"
+authors = ["Spencer Sharkey <spencer@sf-n.com>"]
+edition = "2018"
+
+[dependencies]
+k8s-openapi = { version = "0.9.0", features = ["v1_14"] }
+tokio = { version = "0.2", features = ["full"] }
+clickhouse-rs = "0.2.0-alpha.5"
+tracing-subscriber = "0.2"
+futures-util = "0.3.5"
+async-trait = "0.1.38"
+lazy_static = "1.4.0"
+thiserror = "1.0.20"
+reqwest = "0.10.7"
+structopt = "0.3"
+futures = "0.3.5"
+anyhow = "1.0.32"
+chrono-tz = "0.5"
+tracing = "0.1"
+kube = "0.40.0"
+chrono = "0.4"
+http = "0.2.1"
+regex = "1"
